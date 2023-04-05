@@ -21,7 +21,9 @@ class EchoVisitor(Visitor):
         print(f"node: {t.path} length-mismatch: [{len(t.a)}] -> [{len(t.b)}]")
 
     def visit_node_type_mismatch(self, t: ObjectTuple):
-        print(f"node: {t.path} type-mismatch: {t.a} ({type(t.a)}) -> {t.b} ({type(t.b)})")
+        print(
+            f"node: {t.path} type-mismatch: {t.a} ({type(t.a)}) -> {t.b} ({type(t.b)})"
+        )
 
     def visit_dict_node(self, t: ObjectTuple):
         print(f"node: {t.path} dict")
