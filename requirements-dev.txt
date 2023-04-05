@@ -1,0 +1,9 @@
+# styling
+black
+
+# distribution
+build
+twine
+
+# testing
+PyYAML
