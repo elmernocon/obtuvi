@@ -15,6 +15,16 @@ dynamic = [
     "version"
 ]
 
+[project.optional-dependencies]
+dev = [
+    "black",
+    "build",
+    "twine",
+]
+test = [
+    "PyYAML",
+]
+
 [tool.setuptools]
 package-dir = {"" = "src"}
 

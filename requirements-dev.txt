@@ -1,9 +1,4 @@
-# styling
+# dev
 black
-
-# distribution
 build
 twine
-
-# testing
-PyYAML
